@@ -38,7 +38,7 @@ fn main() {
     // Loop
 
     let mut cnt = 0;
-    let result = loop {
+    let result: i32 = loop {
         cnt += 1;
         if cnt == 10 {
             break cnt * 2;
